@@ -23,4 +23,5 @@ generate-project-from-archetype:
 	  -DartifactId=my-app \
 	  -s settings.xml; \
 	cd my-app; \
+	cat src/main/java/com/mycompany/app/app/HelloController.java; \ 
 	mvn clean test -s settings.xml;
