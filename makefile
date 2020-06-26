@@ -23,5 +23,7 @@ generate-project-from-archetype:
 	  -DartifactId=my-app \
 	  -s settings.xml; \
 	cd my-app; \
+	pwd; \
 	cat src/main/java/com/mycompany/app/DemoApplication.java; \ 
+	find src -type f \
 	mvn clean test -s settings.xml;
