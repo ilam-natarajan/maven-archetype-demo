@@ -24,6 +24,6 @@ generate-project-from-archetype:
 	  -s settings.xml; \
 	cd my-app; \
 	pwd; \
-	cat src/main/java/com/mycompany/app/DemoApplication.java; \ 
 	find src -type f \
+	cat src/main/java/com/mycompany/app/DemoApplication.java; \ 
 	mvn clean test -s settings.xml;
