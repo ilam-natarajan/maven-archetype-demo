@@ -1,3 +1,5 @@
+![Java CI with Maven](https://github.com/ilamparithiNatarajan/maven-archetype-demo/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 # maven-archetype-demo
 Generate maven archetype from a project and publish the archetype
 
