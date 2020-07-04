@@ -1,4 +1,4 @@
-package com.archetypetraining.demo.app;
+package com.archetypetraining.demo;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
